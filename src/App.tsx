@@ -4,27 +4,34 @@ import {
   InstagramOutlined,
   MailOutlined,
 } from "@ant-design/icons";
+import BookPdf from "./assets/LLEGANDO_A_LOS_PIES_DE_CRISTO.pdf";
 
 function App() {
   return (
     <div className="main-app">
       <div className="container">
-        <div className="content">
+        <div className="content" id="content-left">
           <h1 className="title">Llegando a los pies de Cristo</h1>
           <p className="paragrahp">
-            Este libro, está destinado a difundir el plan redentor de
-            Jesucristo, y su poder transformador, para quien decide llegar a sus
-            pies por medio de la fe.
+          Este libro está destinado a difundir el plan redentor de Jesucristo, y su poder transformador, para quien decide llegar a sus pies por medio de la fe.
           </p>
-          <button className="primary-button" id="download-btn">
+          <a
+            href={BookPdf}
+            className="primary-button"
+            id="download-btn"
+            download="llegando-a-los-pies-de-cristo"
+            target="_blank"
+            rel="noreferrer"
+            style={{marginTop: 50}}
+          >
             Descargar Gratis
-          </button>
-          <button className="secondary-button" id="share-btn">
+          </a>
+          {/** <button className="secondary-button" id="share-btn">
             <WhatsAppOutlined /> Compartir con alguien especial
-          </button>
+  </button> **/}
         </div>
         <div className="image">
-          <img src={BookImg} alt="" style={{width: '100%'}}/>
+          <img src={BookImg} alt="" style={{ width: "100%" }} />
         </div>
       </div>
       <div className="container">
@@ -60,7 +67,7 @@ function App() {
         <div className="footer-menu">
           <ul className="list">
             <li>
-              <a href="mailto:acielodespejado@gmail.com">
+              <a href="mailto:llegandoalospiesdecristo@gmail.com">
                 <MailOutlined />
                 Escribir un testimonio
               </a>
@@ -75,8 +82,9 @@ function App() {
         </div>
         <div className="footer-copy">
           <p className="copy">
-            © Copyright <a href="http://acielodespejado.com">acielodespejado.com</a> | Todos los derechos
-            reservados
+            © Copyright{" "}
+            <a href="http://acielodespejado.com">acielodespejado.com</a> | Todos
+            los derechos reservados
           </p>
         </div>
       </div>

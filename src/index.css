@@ -102,10 +102,14 @@ a {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  width: 100%;
+  width: auto;
   font-family: var(--primary-font);
+  display: block;
+  text-align: center;
+
   &:hover {
     background-color: var(--tiertary-color);
+    color: #fff;
   }
 }
 
@@ -170,10 +174,14 @@ a {
   }
 }
 
+#content-left{
+  padding-bottom: 150px;
+}
 @media (max-width: 768px) {
   .main-app {
     .container {
       display: block;
+      height: auto;
     }
     .content {
       .title{
@@ -181,7 +189,9 @@ a {
       }
     }
   }
-
+  #content-left{
+    padding-bottom: 0;
+  }
   .footer {
     display: block;
     position: relative;
