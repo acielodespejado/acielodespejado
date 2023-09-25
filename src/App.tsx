@@ -1,6 +1,5 @@
 import BookImg from "./assets/book.png";
 import {
-  WhatsAppOutlined,
   InstagramOutlined,
   MailOutlined,
 } from "@ant-design/icons";
