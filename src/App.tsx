@@ -3,7 +3,7 @@ import {
   InstagramOutlined,
   MailOutlined,
 } from "@ant-design/icons";
-import BookPdf from "./assets/LLEGANDO_A_LOS_PIES_DE_CRISTO.pdf";
+import BookPdf from "./assets/LLEGANDO_A_LOS_PIES_DE_CRISTO-102023.pdf";
 
 function App() {
   return (
@@ -47,8 +47,7 @@ function App() {
           </p>
           <h2 className="title">Nuestra Visión</h2>
           <p className="paragrahp">
-            Contribuir a formar una cultura cristiana con los dones, frutos del
-            espíritu y los talentos que son agradables al corazón de Dios.
+          Los frutos del Espíritu Santo por el fruto del Espíritu Santo.
           </p>
 
           <h2 className="title">Valores</h2>
