@@ -47,7 +47,7 @@ function App() {
           </p>
           <h2 className="title">Nuestra Visión</h2>
           <p className="paragrahp">
-          El fruto del Espíritu Santo.
+          Contribuir a formar una cultura cristiana con los dones, el fruto del espíritu y los talentos que son agradables al corazón de Dios.
           </p>
 
           <h2 className="title">Valores</h2>
